@@ -1,0 +1,1 @@
+import { Outlet } from 'react-router-dom'\nimport Navigation from '@components/Navigation'\n\nconst MainLayout = () => {\n  return (\n    <div className=\"min-h-screen flex flex-col\">\n      <Navigation />\n      <main className=\"flex-1\">\n        <Outlet />\n      </main>\n    </div>\n  )\n}\n\nexport default MainLayout\n
